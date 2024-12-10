@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+margin: 0;
+box-sizing: border-box;
+}
+#contenedor{
+border: 2px solid red;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.servicio{
+width: 30%;
+
+text-align: center;
+
+}
+.servicio img{
+width: 40%;
+
+
+}
+p{
+color: brown;
+
+
+}
+
+.titulo{
+text-align: center;
+color: yellow;
+text-shadow: 2px 3px 4px black;
+}
+  nav{
+background-color: purple;
+display: flex;
+justify-content: space-around;
+padding: 10px;
+  }
+  
+  </style>
+
+</head>
+
+<body>
+<nav>
+<a href="#">Quienes somos </a>
+<a href="#">Donde  estamos </a>
+<a href="#">contacto</a>
+<a href="#nuestros servicios">nuestros servicios</a>
+
+</nav>
+    <section id="nuestros-servicios">
+        <h1 class="titulo">Nuestros servicios</h1>
+        <div id="contenedor">
+        <article class="servicio">
+            <img src="images/asistencia.png" alt="">
+            <p>Servicio tecnico </p>
+        </article>
+
+        <article class="servicio">
+            <img src="images/consultoría-1-300x215.jpg" alt="">
+            <p>Consultoría </p>
+        </article>
+
+
+
+        <article class="servicio">
+            <img src="images/mobile.png" alt="">
+            <p>Moviles </p>
+        </article>
+
+
+        <article class="servicio">
+            <img src="images/drone.jpg" alt="">
+            <p>Drones </p>
+        </article>
+
+
+        <article class="servicio">
+            <img src="images/web.jfif" alt="">
+            <p>Soporte web</p>
+        </article>
+
+        <article class="servicio">
+            <img src="images/soluciones.jpg" alt="">
+            <p>Soluciones </p>
+        </article>
+
+    </div>
+    </section>
+
+
+</body>
+
+</html>
